@@ -1,6 +1,6 @@
 {
-	"name":"gsdevme/project-template",
-	"description":"Template for future projects",
+	"name": "gsdevme/project-template",
+	"description": "Template for future projects",
 	"keywords": [],
 	"autoload": {
 		"psr-0": {
@@ -16,6 +16,10 @@
 		"behat/behat": "~3.0",
 		"squizlabs/php_codesniffer": "~2.3"
 	},
-	"require": {
+	"minimum-stability": "dev",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.2"
+		}
 	}
 }
